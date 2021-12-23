@@ -22,6 +22,12 @@
     {{-- bootstrap--}}
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css')}}">
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Secular+One&display=swap');
+    * {
+        font-family: "Secular One";
+    }
+    </style>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
