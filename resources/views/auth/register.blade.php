@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="vh-100" style="background-color: #b165e4;">
-    <div class="container py-5 h-100">
+<section class="vh-100" style="background-image: url({{asset('image/aestheticsky.jpg')}}); background-size: cover; background-repeat: no-repeat">
+    <div class="container h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5" style="">
+          <div class="card shadow-2-strong" style="border-radius: 1rem; border: 5px dashed rgb(165, 162, 162); background: rgba(255, 255, 255, 0.5)">
             <div class="card-body p-5 text-center">
   
               <h3 class="mb-5">Register</h3>
