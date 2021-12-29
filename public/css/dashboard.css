@@ -6,12 +6,12 @@
 body {
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:18px;
-	background-color:rgb(194, 135, 209);
+	background-color:#FFF
 }
 
 header {
 	width:100%;
-	background-color:#de97e0 ;
+	background-color:#b783cf ;
 	z-index:1000;
 }
 
@@ -43,7 +43,8 @@ header {
 .jw-drawer {
 	position:fixed;
 	left:-280px;
-	background-color:rgb(194, 135, 209);
+	background-color:#b783cf ;
+	z-index:1000;
 	height:100%;
 	z-index:100;
 	width:230px;
@@ -60,7 +61,7 @@ header {
 	text-decoration:none;
 	display:block;
 	color:#FFF;
-	border-top:1px solid rgb(194, 135, 209);
+	/* border-top:1px solid rgb(140, 20, 187); */
 }
 
 .jw-drawer ul li a:hover{

@@ -20,6 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     {{-- bootstrap--}}
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css')}}">
@@ -65,7 +66,7 @@
                             @endif
                         @else
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#"><i class='bx bxs-home' ></i></a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">settings</a>
@@ -85,6 +86,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+                                
                                 </div>
                             </li>
                         @endguest
